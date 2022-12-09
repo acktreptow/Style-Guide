@@ -16,7 +16,8 @@ h1 {
   text-decoration: underline;
 }
 
-#color-container {
+#colors-container,
+#fonts-container {
   border: 2px solid black;
   margin-top: 50px;
   padding-bottom: 50px;
@@ -42,7 +43,10 @@ h3 {
   text-shadow: 2px 1px 1px rgb(50, 50, 50);
 }
 
-#blue-container, #pink-container, #green-container, #beige-container {
+#blue-container,
+#pink-container,
+#green-container,
+#beige-container {
   height: 100px;
   width: 300px;
   border-radius: 2%;
@@ -63,4 +67,40 @@ h3 {
 
 #beige-container {
   background-color: #efd9ca;
+}
+
+#roboto-container {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.15;
+}
+
+#ubuntu-container {
+  font-family: "Ubuntu", sans-serif;
+}
+
+#nunito-container {
+  font-family: "Nunito Sans", sans-serif;
+  line-height: 1.23;
+}
+
+h4 {
+  font-size: 30px;
+  text-decoration: underline;
+  padding-bottom: 10px;
+}
+
+.line-one,
+.line-two,
+.line-three {
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+
+.line-two {
+  font-weight: bold;
+}
+
+.line-three {
+  font-style: italic;
+  padding-bottom: 0px;
 }
