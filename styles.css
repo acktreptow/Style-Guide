@@ -10,11 +10,10 @@ body {
 }
 
 h1 {
-  margin-top: 20px;
+  margin-top: 30px;
   margin-left: 50px;
   font-size: 45px;
   text-decoration: underline;
-  font-style: oblique;
 }
 
 #color-container {
@@ -30,7 +29,7 @@ h2 {
   padding-top: 20px;
   padding-bottom: 30px;
   margin-left: 50px;
-  font-size: 30px;
+  font-size: 35px;
   text-decoration: underline;
   flex-basis: 100%;
 }
@@ -40,33 +39,28 @@ h3 {
   font-size: 40px;
   text-align: center;
   margin: auto 0;
-  text-shadow: 2px 1px 1px grey;
+  text-shadow: 2px 1px 1px rgb(50, 50, 50);
+}
+
+#blue-container, #pink-container, #green-container, #beige-container {
+  height: 100px;
+  width: 300px;
+  border-radius: 2%;
+  box-shadow: -3px 4px 5px rgb(77, 77, 77);
 }
 
 #blue-container {
   background-color: #2d5dcc;
-  height: 100px;
-  width: 300px;
-  border-radius: 2%;
 }
 
 #pink-container {
   background-color: #d957d9;
-  height: 100px;
-  width: 300px;
-  border-radius: 2%;
 }
 
 #green-container {
   background-color: #4fe0b0;
-  height: 100px;
-  width: 300px;
-  border-radius: 2%;
 }
 
 #beige-container {
   background-color: #efd9ca;
-  height: 100px;
-  width: 300px;
-  border-radius: 2%;
 }
