@@ -6,7 +6,6 @@
 
 body {
   margin: auto 200px;
-  border: 1px solid black;
 }
 
 h1 {
@@ -14,16 +13,19 @@ h1 {
   margin-left: 50px;
   font-size: 45px;
   text-decoration: underline;
+  min-width: 300px;
 }
 
 #colors-container,
-#fonts-container {
+#fonts-container,
+#text-styles-container {
   border: 2px solid black;
-  margin-top: 50px;
-  padding-bottom: 50px;
+  margin-top: 40px;
+  padding-bottom: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  min-width: 350px;
 }
 
 h2 {
@@ -50,7 +52,8 @@ h3 {
   height: 100px;
   width: 300px;
   border-radius: 2%;
-  box-shadow: -3px 4px 5px rgb(77, 77, 77);
+  box-shadow: -4px 4px 5px rgb(77, 77, 77);
+  margin-bottom: 10px;
 }
 
 #blue-container {
@@ -69,24 +72,42 @@ h3 {
   background-color: #efd9ca;
 }
 
+#colors-header {
+  padding-bottom: 20px;
+}
+
+#fonts-header {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+#text-styles-header {
+  padding-bottom: 0px;
+}
+
 #roboto-container {
   font-family: "Roboto", sans-serif;
   line-height: 1.15;
+  margin-top: 20px;
 }
 
 #ubuntu-container {
   font-family: "Ubuntu", sans-serif;
+  margin-top: 20px;
 }
 
 #nunito-container {
   font-family: "Nunito Sans", sans-serif;
   line-height: 1.23;
+  margin-top: 20px;
 }
 
 h4 {
   font-size: 30px;
   text-decoration: underline;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  text-align: center;
 }
 
 .line-one,
@@ -94,6 +115,7 @@ h4 {
 .line-three {
   font-size: 20px;
   padding-bottom: 15px;
+  padding-left: 10px;
 }
 
 .line-two {
@@ -103,4 +125,21 @@ h4 {
 .line-three {
   font-style: italic;
   padding-bottom: 0px;
+}
+
+h5 {
+  font-size: 25px;
+  text-decoration: underline;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-top: 20px;
+}
+
+li {
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.list {
+  min-width: 235px;
 }
